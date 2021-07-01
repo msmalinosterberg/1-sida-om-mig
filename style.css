@@ -7,14 +7,14 @@ i morgon ska vi lära oss att skriva CSS.
 body {
   box-sizing: border-box;
   font-family: Helvetica, "sans serif";
-  color: #ff726c;
+  color: #93B7BE;
   margin: 0;
 }
 
 /* Här finns all styling för knappen */
 .button {
   background-color: white;
-  color: #ff726c;
+  color: #785964;
   padding: 25px;
   border-radius: 40px;
   text-transform: uppercase;
@@ -47,7 +47,7 @@ p {
 
 /* Här är styling för about-me sektionen */
 .about-me {
-  background-color: #ff726c;
+  background-color: #93B7BE;
   padding: 150px 30px;
   color: white;
   text-align: center;
@@ -63,13 +63,27 @@ p {
 
 /* Här är styling för greatness sektionen */
 .greatness {
-  padding: 150px 30px;
+  padding: 100px 10px;
   width: 60%;
   margin: 0 auto;
 }
 
 /* Här är styling för footern på sidan */
 footer {
-  background-color: #fbcfcd;
-  padding: 150px 300px;
+  background-color: #785964;
+  padding: 100px 230px;
+}
+
+a {
+  text-decoration: none;
+  color: black; 
+  font-size: 20px;
+  font-weight: 200;
+
+}
+
+.social-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
